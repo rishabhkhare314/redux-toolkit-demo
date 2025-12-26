@@ -17,7 +17,7 @@ function App() {
       <h1>{counter}</h1>
       <button onClick={() => dispatch(increment())}>Increment</button>
       <button onClick={() => dispatch(decrement())}>Decrement</button>
-      <button onClick={() => dispatch(reset())}>Increment By Any Amount</button>
+      <button onClick={() => dispatch(reset())}>Reset</button>
       <input
         type="number"
         value={count}
