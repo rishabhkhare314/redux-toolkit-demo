@@ -1,7 +1,9 @@
+@import "tailwindcss";
+
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  /* padding: 0; */
 }
 html,
 body {
@@ -10,12 +12,10 @@ body {
 }
 
 .root {
-  padding: 1rem;
+  /* padding: 1rem; */
 }
-.root h1 {
-  margin: 0 1rem;
-}
-button, input {
+
+.counter-field {
   padding: 1rem;
   margin: 1rem;
   background-color: rgb(138, 127, 127);
@@ -23,7 +23,7 @@ button, input {
   color: #fff;
 }
 
-button:hover {
+.counter-field:hover {
   background-color: rgb(90, 90, 90);
   cursor: pointer;
 }
